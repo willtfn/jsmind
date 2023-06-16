@@ -1,0 +1,39 @@
+@import "./variables.less";
+@import "./mixin.less";
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
+    Microsoft YaHei, Arial, sans-serif;
+  // color: var(--van-text-color);
+  color: #1c1c1b;
+  background-color: var(--color-background-2);
+  font-size: 22px;
+  letter-spacing: 1.2px;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+  background-color: @background-color;
+  .app-wrapper {
+    > div {
+      background-color: @background-color;
+    }
+  }
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}

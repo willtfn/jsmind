@@ -1,0 +1,16 @@
+{
+  "tabWidth": 2,
+  "bracketSpacing": true,
+  "singleQuote": false,
+  "semi": false,
+  "arrowParens": "avoid",
+  "trailingComma": "none",
+  "overrides": [
+    {
+      "files": "*.html",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}
